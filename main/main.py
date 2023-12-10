@@ -133,7 +133,7 @@ def infectedZone(user):
                 forum.append(name)
     except Exception as e:
         notSearch(name)
-        print(e)
+        # print(e)
 
 
 if __name__ == '__main__':
