@@ -16,7 +16,7 @@
 > 
 
 ### 2️⃣ 컨테이너 실행
-> 명령어: `docker run -it whatsmyname [main.py](http://main.py/)`
+> 명령어: `docker run -it whatsmyname`
 >
 > 
 
