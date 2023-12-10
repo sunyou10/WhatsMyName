@@ -1,10 +1,8 @@
 FROM python:3.8-buster
-WORKDIR /WhatsMyNAME
-
-RUN pip3 apt-get update && apt-get install -y
-RUN pip3 install requests
-RUN pip3 install beautifulsoup4
-
+WORKDIR /WhatsMyName
 COPY main.py .
 
-CMD [ "python3", "main.py" ]
+RUN apt-get update && apt-get install tor -y
+RUN pip3 install requests BeautifulSoup4 pyfiglet clint PySocks urllib3
+
+CMD ["python3", "main.py"]
