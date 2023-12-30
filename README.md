@@ -1,4 +1,4 @@
-# WhatsMyName
+# Echo- Tracker
 포럼 유저를 검색하면 해당 유저가 활동하는 포럼 리스트를 볼 수 있는 CLI 툴
 
 ---
@@ -6,22 +6,22 @@
 ## ✅ Docker에서 실행
 
 ### 0️⃣ Git 저장소 복제
-> 명령어: `git clone [git@github.com](mailto:git@github.com):sunyou10/WhatsMyName.git`
+> 명령어: `git clone https://github.com/WHS-Killer-Whale/Echo-Tracker.git`
 >
 > 
 
 ### 1️⃣ WhatsMyName 폴더로 이동 후 Dockerfile BUILD
-> 명령어: `cd WhatsMyName/` >> `docker build -t whatsmyname .`
+> 명령어: `cd Echo-Tracker/` >> `docker build -t echo-tracker .`
 도커 로그인 후 실행
 > 
 
 ### 2️⃣ 컨테이너 실행
-> 명령어: `docker run -it whatsmyname`
+> 명령어: `docker run -it echo-tracker`
 >
 > 
 
 ### ▶️ 실행 화면
-![image](https://github.com/sunyou10/WhatsMyName/assets/145275007/d338749a-1df6-4f21-b3d0-06c47eea018a)
+![image](https://github.com/sunyou10/WhatsMyName/assets/145275007/01d62cf5-f324-4616-bd01-8bacab6bc319)
 
 
 ---
